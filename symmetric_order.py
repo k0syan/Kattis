@@ -22,13 +22,3 @@ if __name__ == "__main__":
 
         j += 1
         n = int(input())
-
-# 7
-# Bo
-# Pat
-# Jean
-# Kevin
-# Claude
-# William
-# Marybeth
-# 0
