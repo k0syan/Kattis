@@ -25,5 +25,4 @@ if __name__ == "__main__":
                 fword.append(let)
             fword.reverse()
             print("".join(fword))
-# 1 .DOT
-# 0
+            
