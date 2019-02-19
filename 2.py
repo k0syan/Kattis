@@ -36,13 +36,3 @@ def get_change(a, p):
 
 if __name__ == "__main__":
     print(get_change(5, 0.99))
-
-
-
-
-
-# get_change(5, 0.09)
-# get_change(5, 0.99)
-
-
-# 0.01, 0.05, 0.10, 0.25, 0.5, 1
