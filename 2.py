@@ -4,6 +4,7 @@ def read_data():
             features = [float(x) for x in line.split()]
             print(features)
 
+# get change
 
 def get_change(a, p):
     t = a * 100

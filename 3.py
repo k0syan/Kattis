@@ -4,6 +4,7 @@ def read_data():
             features = [float(x) for x in line.split()]
             print(features)
 
+# domino
 
 def domino(d):
     a = str(d).split(",")

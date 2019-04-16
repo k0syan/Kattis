@@ -35,6 +35,7 @@ def solution(rules):
 inp = input().split(", ")
 print(solution(inp))
 
+# switzerland
 
 # “U>N”, “R>Y”, “H>U”, “N>G”, “A>R”, “G>A”
 # "P>E", "R>U", "E>R"
