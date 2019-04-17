@@ -5,6 +5,6 @@ if __name__ == "__main__":
         if task == "P=NP":
             print("skipped")
         else:
-            tmp = list(task)
-            a, b = int(tmp[0]), int(tmp[len(tmp) - 1])
+            tmp = task.split("+")
+            a, b = int(tmp[0]), int(tmp[1])
             print(a + b)

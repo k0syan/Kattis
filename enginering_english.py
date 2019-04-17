@@ -1,13 +1,9 @@
-if __name__ == "__main__":
-    lines = []
-    while True:
-        line = input()
-        if len(line) == 0:
-            break
-        else:
-            lines.append(line)
-    sentence = " ".join(lines).split()
-    existing = []
+import sys
+
+existing = []
+for line in sys.stdin:
+    line = line.strip()
+    sentence = line.split(" ")
     answer = []
     for word in sentence:
         if word.lower() in existing:
