@@ -8,7 +8,6 @@ if __name__ == "__main__":
             for ln in line:
                 ants.append(int(ln))
 
-        ants.sort()
         minimum = 0
         maximum = 0
         for a in ants:
