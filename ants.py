@@ -1,18 +1,16 @@
-if __name__ == "__main__":
-    t = int(input())
-    while t != 0:
-        l, n = [int(i) for i in input().split()]
-        ants = []
-        while len(ants) < n:
-            line = input().split()
-            for ln in line:
-                ants.append(int(ln))
+t = int(input())
+while t != 0:
+    l, n = [int(i) for i in input().split()]
+    ants = []
+    while len(ants) < n:
+        line = input().split()
+        for ln in line:
+            ants.append(int(ln))
 
-        minimum = 0
-        maximum = 0
-        for a in ants:
-            minimum = max(minimum, min(a, l - a))
-            maximum = max(maximum, max(a, l - a))
+    minimum, maximum = 0, 0
+    for a in ants:
+        minimum = max(minimum, min(a, l - a))
+        maximum = max(maximum, max(a, l - a))
 
-        print(minimum, maximum)
-        t -= 1
+    print(minimum, maximum)
+    t -= 1
